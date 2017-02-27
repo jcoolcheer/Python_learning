@@ -6,27 +6,28 @@ print('hello zee\nnice to meet you!')
 # nice to meet you
 
 print(r'hello zee\nnice to meet you!')
-#hello zee nice to meet you!
+# hello zee nice to meet you!
 
 print('what\'s your name?''i\'m zee')
-#what's your name ? i'm zee auto automatic
+# what's your name ? i'm zee auto automatic
 
 
 i = 5
 print (i)
-
+# 5
 i= i+1
 print (i)
+# 6
 
 sentence = 'this is a demo text'
 print (sentence)
 
-long_s = 'this is very long \
-sentence'
+long_s = 'this is a very long \
+sentence.'
 print (long_s)
+# this is a very long sentence.
 
 number = 23
-
 in_int = int(input('enter a number: '))
 if in_int == number:
 	print ('yes,the same!')
@@ -34,8 +35,6 @@ elif in_int < number:
 	print ('in_int is smaller than number')
 else:
 	print ('in_int is bigger than number')
-
-
 running = True
 #capitalize
 
@@ -52,7 +51,7 @@ while running:
 
 for i in range(1,10):
 	print(i)
-
+#1,2,3,4,5,6,7,8,9
 
 run = True
 while run: 
@@ -91,7 +90,7 @@ say_times('zee',7)
 def numbers(x,y):
 	"""This is a how to say.
 
-	a a anatural content"""
+	a a a natural content"""
 	if x > y:
 		print ('yes ',x,'is bigger than',y)
 	else:
