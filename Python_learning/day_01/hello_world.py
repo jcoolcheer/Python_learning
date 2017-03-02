@@ -6,11 +6,11 @@ print('hello zee\nnice to meet you!')
 # nice to meet you
 
 print(r'hello zee\nnice to meet you!')
-# hello zee nice to meet you!
+# hello zee\nnice to meet you!
+# r means 'raw'
 
 print('what\'s your name?''i\'m zee')
 # what's your name ? i'm zee auto automatic
-
 
 i = 5
 print (i)
